@@ -108,7 +108,8 @@
             android:layout_marginTop="45dp"
             android:layout_marginBottom="45dp"
             android:layout_marginLeft="20dp"
-            android:layout_marginRight="20dp">
+            android:layout_marginRight="20dp"
+            android:id="@+id/card1">
 
             <TextView
                 android:layout_width="match_parent"
@@ -124,7 +125,7 @@
                 android:layout_height="0dp"
                 android:id="@+id/flopCard1Suit"
                 android:text="♥"
-                android:textSize="60dp"
+                android:textSize="30dp"
                 android:textColor="#f40606"
                 android:textIsSelectable="true"
                 android:layout_weight="1"
@@ -151,7 +152,8 @@
             android:layout_marginBottom="45dp"
             android:layout_marginTop="45dp"
             android:layout_marginLeft="20dp"
-            android:layout_marginRight="20dp">
+            android:layout_marginRight="20dp"
+            android:id="@+id/card2">
 
             <TextView
                 android:layout_width="match_parent"
@@ -166,7 +168,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:id="@+id/flopCard2Suit"
-                android:textSize="60dp"
+                android:textSize="30dp"
                 android:textColor="#f40606"
                 android:textIsSelectable="true"
                 android:layout_weight="1"
@@ -210,7 +212,7 @@
                 android:layout_height="0dp"
                 android:id="@+id/flopCard3Suit"
                 android:text="♣"
-                android:textSize="60dp"
+                android:textSize="30dp"
                 android:textColor="#000000"
                 android:textIsSelectable="true"
                 android:layout_weight="1"
@@ -254,7 +256,7 @@
                 android:layout_height="0dp"
                 android:id="@+id/flopCard4Suit"
                 android:text="♥"
-                android:textSize="60dp"
+                android:textSize="30dp"
                 android:textColor="#f40606"
                 android:textIsSelectable="true"
                 android:layout_weight="1"
@@ -297,7 +299,7 @@
                 android:layout_height="0dp"
                 android:id="@+id/flopCard5Suit"
                 android:text="♠"
-                android:textSize="60dp"
+                android:textSize="30dp"
                 android:textColor="#000000"
                 android:textIsSelectable="true"
                 android:layout_weight="1"
@@ -348,7 +350,8 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="#fcfbfb">
+            android:background="#fcfbfb"
+            android:id="@+id/handCard1">
 
             <TextView
                 android:layout_width="match_parent"
@@ -364,7 +367,7 @@
                 android:layout_height="0dp"
                 android:id="@+id/userCard1Suit"
                 android:text="♥"
-                android:textSize="60dp"
+                android:textSize="30dp"
                 android:textColor="#f40606"
                 android:textIsSelectable="true"
                 android:layout_weight="1"
@@ -391,7 +394,8 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="#fcfbfb">
+            android:background="#fcfbfb"
+            android:id="@+id/handCard2">
 
             <TextView
                 android:layout_width="match_parent"
@@ -407,7 +411,7 @@
                 android:layout_height="0dp"
                 android:id="@+id/userCard2Suit"
                 android:text="♥"
-                android:textSize="60dp"
+                android:textSize="30dp"
                 android:textColor="#f40606"
                 android:textIsSelectable="true"
                 android:layout_weight="1"
@@ -425,10 +429,31 @@
                 android:textSize="30dp" />
         </LinearLayout>
 
-        <Space
+        <TextView
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="4" />
+            android:text="Bet Value:"
+            android:id="@+id/textView2"
+            android:layout_weight=".75"
+            android:textSize="20dp"
+            android:textColor="#eee41b"
+            android:gravity="center" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="0"
+            android:id="@+id/betTextView"
+            android:layout_weight=".75"
+            android:gravity="center|center_vertical|left"
+            android:textColor="#eee41b"
+            android:textSize="20dp" />
+
+        <SeekBar
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/betSeekBar"
+            android:layout_weight="2.5" />
 
     </LinearLayout>
 
