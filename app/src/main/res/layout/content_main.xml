@@ -196,7 +196,8 @@
             android:layout_marginTop="45dp"
             android:layout_marginBottom="45dp"
             android:layout_marginLeft="20dp"
-            android:layout_marginRight="20dp">
+            android:layout_marginRight="20dp"
+            android:id="@+id/card3">
 
             <TextView
                 android:layout_width="match_parent"
@@ -240,7 +241,8 @@
             android:layout_marginBottom="45dp"
             android:layout_marginTop="45dp"
             android:layout_marginLeft="20dp"
-            android:layout_marginRight="20dp">
+            android:layout_marginRight="20dp"
+            android:id="@+id/card4">
 
             <TextView
                 android:layout_width="match_parent"
@@ -283,7 +285,8 @@
             android:layout_marginTop="45dp"
             android:layout_marginBottom="45dp"
             android:layout_marginLeft="20dp"
-            android:layout_marginRight="20dp">
+            android:layout_marginRight="20dp"
+            android:id="@+id/card5">
 
             <TextView
                 android:layout_width="match_parent"
