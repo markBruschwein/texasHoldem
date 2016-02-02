@@ -68,6 +68,8 @@ public class MainActivity extends AppCompatActivity implements SeekBar.OnSeekBar
             }
         });
 
+
+        // handles events for the betting seekbar
         betSeekBar = (SeekBar)findViewById(R.id.betSeekBar);
         betSeekBar.setOnSeekBarChangeListener(this);
 
